@@ -1,0 +1,6 @@
+<!--pages/videoplayer/videoplayer.wxml-->
+<view class="section tc">
+  <video id="myVideo" style="height:{{videoHeight}}px;width:{{videoWidth}}px" src="{{videoU}}" binderror="videoErrorCallback" danmu-list="{{danmuList}}" enable-danmu danmu-btn controls></video>
+</view>
+
+

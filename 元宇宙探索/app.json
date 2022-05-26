@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/collection-set/collection-set",
+    "pages/exam/exam",
+    "pages/stest/stest",
+    "pages/mtest/mtest",
+    "pages/score/score",
+    "pages/videoplayer/videoplayer",
+    "pages/essay/essay"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "探索元宇宙",
+    "navigationBarBackgroundColor": "#FFB6C1",
+    "backgroundColor": "#fbf9fe"
+  },
+  "tabBar": {
+    "color": "#dddddd",
+    "selectedColor": "#000000",
+    "borderStyle": "white",
+    "backgroundColor": "#FFB6C1",
+    "list": [
+      {
+        "pagePath": "pages/collection-set/collection-set",
+        "iconPath": "image/home.png",
+        "selectedIconPath": "image/home_hl.png",
+        "text": "收藏集"
+      },
+      {
+        "pagePath": "pages/exam/exam",
+        "iconPath": "image/exam.png",
+        "selectedIconPath": "image/exam_hl.png",
+        "text": "小测试"
+      }
+    ]
+  },
+  "debug": true,
+  "sitemapLocation": "sitemap.json"
+}

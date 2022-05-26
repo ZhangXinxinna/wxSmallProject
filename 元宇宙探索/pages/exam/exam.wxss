@@ -1,0 +1,36 @@
+._img {
+  height: 300rpx;
+  width: 100%;
+  background-color: blue;
+}
+
+.icon {
+  margin-top: 30rpx;
+  display: flex;
+  height: auto;
+  width: 100%;
+}
+
+.icon_item {
+  height: 350rpx;
+  width: 250rpx;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  height: 300rpx;
+  width: 5rpx;
+}
+.label_1{
+  position:absolute;
+  left: 310rpx;
+  top: 480rpx;
+  color: white;
+}
+.label_2{
+  position:absolute;
+  left: 310rpx;
+  top: 870rpx;
+  color: white;
+}

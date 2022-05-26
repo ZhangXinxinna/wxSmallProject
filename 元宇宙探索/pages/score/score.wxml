@@ -1,0 +1,20 @@
+<!--pages/score/score.wxml-->
+
+<view>
+  <view>
+    <image src="../../image/100.png" class="score_class" wx:if="{{score==100}}"></image>
+    <image src="../../image/60.png" class="score_class" wx:elif="{{score< 60}}"></image>
+    <image src="../../image/good.png" class="score_class" wx:else></image>
+  </view>
+  <view class="score_text">
+    <view>您的分数为：</view>
+    <view style="color: rgb(130, 203, 252);">{{score}} </view>
+    <view>分</view>
+  </view>
+  <view class="result">
+    <view wx:if="{{score==100}}">太棒啦！！</view>
+    <view wx:elif="{{score< 60}}">继续加油哦！</view>
+    <view wx:else>已经很不错啦</view>
+  </view>
+  <view class="rebtn" bindtap="returnHome" value="fanuhi">返回</view>
+</view>

@@ -1,0 +1,12 @@
+
+<view class="container">
+  <view class="essay_title">{{title}}</view>
+  <view class="essayInfo">
+    <view class="essayer">{{person}}</view>
+    <view class="essaytime">{{time}}</view>
+  </view>
+  <view class="img">
+  <image style="width: 100%;" src="{{imgU}}"></image>
+  </view>
+  <view class="essay">{{essay}}</view>
+</view>

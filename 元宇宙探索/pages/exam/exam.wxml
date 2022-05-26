@@ -1,0 +1,45 @@
+<view>
+  <view class="_img">
+    <image src="../../image/10.jpg" style="height: 300rpx; width: 100%;"></image>
+  </view>
+  <view class="exam">
+    <view class="icon">
+      <view class="icon_item">
+        <view class="item">
+          <image style="height: 100rpx;width: 100rpx; margin-top: 100rpx; margin-left: 70rpx;" src="../../image/2.png" />
+          <view style="margin-left: 90rpx;margin-top: 20rpx;  white-space:nowrap;">错题</view>
+        </view>
+      </view>
+      <view class="icon_item">
+        <image style="height: 250rpx;width: 250rpx; margin-top: 50rpx;" src="../../image/1.png">
+        </image>
+        <label class="label_1" bindtap="startTest">开始测试</label>
+      </view>
+      <view class="icon_item">
+        <view class="item">
+          <image style="height: 100rpx;width: 100rpx; margin-top: 100rpx; margin-left: 70rpx;" src="../../image/3.png" />
+          <view style="margin-left: 90rpx;margin-top: 20rpx;  white-space:nowrap;">收藏</view>
+        </view>
+      </view>
+    </view>
+    <view class="icon">
+      <view class="icon_item">
+        <view class="item">
+          <image style="height: 100rpx;width: 100rpx; margin-top: 100rpx; margin-left: 70rpx;" src="../../image/5.png" />
+          <view style="margin-left: 90rpx;margin-top: 20rpx;  white-space:nowrap;">排名</view>
+        </view>
+      </view>
+      <view class="icon_item">
+        <image style="height: 250rpx;width: 250rpx; margin-top: 50rpx; " src="../../image/4.png">
+          <label class="label_2" bindtap="startmTest">模拟测试</label>
+        </image>
+      </view>
+      <view class="icon_item">
+        <view class="item">
+          <image style="height: 100rpx;width: 100rpx; margin-top: 100rpx; margin-left: 70rpx;" src="../../image/6.png" />
+          <view style="margin-left: 90rpx;margin-top: 20rpx;  white-space:nowrap;">签到</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

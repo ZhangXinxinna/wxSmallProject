@@ -1,0 +1,53 @@
+<view>
+  <view class="test_header">
+    <image src="../../image/time.png" style="height: 50rpx;width: 50rpx; margin-top: 25rpx;margin-left:250rpx;"></image>
+    <text style="margin-top: 25rpx;">开始考试啦！</text>
+  </view>
+
+  <view wx:for="{{test}}" wx:for-index="idx" wx:for-item="tests" wx:key="id">
+    <view class="test_body">
+      <view class="test_icon">
+        <view class="test_icon_item">
+          <image src="../../image/title.png" style="height: 50rpx;width: 50rpx; margin-top: 5rpx;"></image>
+          <view style="font-weight: 500;font-size: 16px;color: rgb(238, 171, 182);margin-top: 5rpx;">选择题</view>
+        </view>
+        <view class="test_num">
+          <view class="nowNum">{{idx+1}}</view>
+          <view class="allNum">/{{test.length}}</view>
+        </view>
+      </view>
+      <!-- 分割线 -->
+      <view class="divLine"></view>
+
+      <text class="test_title">{{tests.title}}</text>
+      <view class="test_option" hover-class="test_option_hover" bindtap="openDetail" data-url="{{tests.selectA}}" id="{{tests.id}}">
+        <text class="test_option_item">{{tests.selectA}}</text>
+      </view>
+      <view class="test_option" hover-class="test_option_hover" bindtap="openDetail" data-url="{{tests.selectB}}" id="{{tests.id}}">
+        <text class="test_option_item">{{tests.selectB}}</text>
+      </view>
+      <view class="test_option" hover-class="test_option_hover" bindtap="openDetail" data-url="{{tests.selectC}}" id="{{tests.id}}">
+        <text class="test_option_item">{{tests.selectC}}</text>
+      </view>
+      <view class="test_option" hover-class="test_option_hover" bindtap="openDetail" data-url="{{tests.selectD}}" id="{{tests.id}}">
+        <text class="test_option_item">{{tests.selectD}}</text>
+      </view>
+      <view class="divLine2"></view>
+      <view style="padding-bottom:50rpx; margin-left:50rpx; font-size: 10px; color: gray;">您的答案是：{{tests.selected}}</view>
+
+    </view>
+  </view>
+
+  <view class="test_footer">
+    <view class="footer_icon">
+      <image src="../../image/number.png" style="height: 50rpx;width: 50rpx; margin-top: 25rpx;margin-left:300rpx;"></image>
+      <view style="margin-top: 25rpx;display: flex;flex-direction: row;">
+        <view class="nowNum">{{test.length}}</view>
+        <view class="allNum">/{{test.length}}</view>
+      </view>
+    </view>
+    <view class="submitbtn" bindtap="showWindows">提交</view>
+  </view>
+  <view>
+</view>
+</view>

@@ -1,0 +1,109 @@
+/* pages/stest/stest.wxss */
+.test_header {
+  display: flex;
+  flex-direction: row;
+  height: 100rpx;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 40rpx;
+}
+
+.test_body {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+  height: 800rpx;
+  background-color: rgb(255, 255, 255);
+}
+
+.test_icon {
+  display: flex;
+  flex-direction: row;
+}
+
+.test_icon_item {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20rpx;
+  margin-left: 50rpx;
+}
+
+.test_num {
+  margin-top: 25rpx;
+  padding-left: 370rpx;
+  float: right;
+  display: flex;
+  flex-direction: row;
+}
+
+.divLine {
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  background: rgb(216, 215, 215);
+  width: 100%;
+  height: 3rpx;
+}
+
+.test_title {
+  margin-top: 20rpx;
+  margin-left: 50rpx;
+  color: rgb(94, 89, 89);
+}
+
+.test_option {
+  color: rgb(94, 89, 89);
+  margin-top: 60rpx;
+  margin-left: 50rpx;
+  margin-right: 50rpx;
+  border: 1rpx solid rgb(216, 215, 215);
+  height: 80rpx;
+  display: flex;
+}
+
+.test_option_item {
+  padding-top: 5rpx;
+  margin-left: 15rpx;
+}
+.test_option_hover {
+  margin-top: 60rpx;
+  margin-left: 50rpx;
+  margin-right: 50rpx;
+  height: 80rpx;
+  background-color: #e1ebf1;
+}
+
+.test_footer {
+  display: flex;
+  flex-direction: row;
+  height: 100rpx;
+  width: 100%;
+  margin-top: 167rpx;
+  background-color: rgb(255, 255, 255);
+}
+
+.footer_icon {
+  display: flex;
+  flex-direction: row;
+}
+
+.submitbtn {
+  margin-left: 200rpx;
+  margin-top: 25rpx;
+  font-weight: 500;
+  font-size: 18px;
+  color: rgb(238, 171, 182);
+}
+
+.nowNum {
+  font-weight: 500;
+  color: rgb(238, 171, 182);
+}
+.divLine2 {
+  margin-top: 40rpx;
+
+  background: rgb(238, 171, 182);
+  width: 100%;
+  height: 10rpx;
+  border-radius: 100rpx;
+}

@@ -1,0 +1,171 @@
+.collection {
+    position: relative;
+    margin: 40rpx 40rpx;
+    height: 400rpx;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    border: 1rpx solid #ffffff;
+    border-radius: 20rpx;
+}
+
+.collection-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient(hsla(0, 0%, 56%, .3), rgba(70, 70, 70, .6));
+    transition: background .3s;
+}
+
+.collection:hover .collection-overlay {
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.collection-info {
+    position: absolute;
+    bottom: 55rpx;
+    left: 40rpx;
+}
+
+.collection-title {
+    display: block;
+}
+
+.collection-data {
+    display: block;
+    margin-top: 15rpx;
+    font-size: 28rpx;
+}
+
+.load-more {
+    margin: 20rpx 20rpx;
+}
+
+
+.swiper {
+    height: 400rpx;
+    width: 100%;
+}
+
+.swiper-image {
+    height: 100%;
+    width: 100%;
+}
+
+.slide-image {
+    height: 100%;
+    width: 100%;
+}
+
+.page-head {
+    /* position: relative; */
+    padding: 20rpx 20rpx;
+    background-color: rgb(78, 182, 252);
+    margin-bottom: 100rpx;
+    border: 0rpx solid #ffffff;
+    border-radius: 20rpx;
+}
+
+.search{
+    margin-bottom: -100rpx;
+    height: 450rpx;
+    background-color: white;
+    border: 5rpx solid #ffffff;
+    border-radius: 20rpx;
+}
+.img {
+    margin: 30rpx 30rpx 25rpx 30rpx;
+    border: 1rpx solid #ffffff;
+    border-radius: 20rpx;
+}
+
+.title {
+    height: 200rpx;
+    color: white;
+    font-weight: 400;
+    margin-top: 50rpx;
+    margin-left: 50rpx;
+    margin-bottom: 50rpx;
+}
+.weui-search-bar {
+    position: relative;
+    padding: 8px 10px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    border-top: 1rpx solid #ffffff;
+    border-bottom: 1rpx solid #ffffff;
+    border-radius: 20rpx;
+  }
+  .weui-icon-search_in-box {
+    position: absolute;
+    left: 10px;
+    top: 7px;
+  }
+  .weui-search-bar__form {
+    position: relative;
+    -webkit-box-flex: 1;
+    -webkit-flex: auto;
+            flex: auto;
+    border-radius: 5px;
+    background: #f3f3f3;
+    border: 5rpx solid #ffffff;
+    border-radius: 50rpx;
+  }
+  .weui-search-bar__box {
+    position: relative;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 1;
+  }
+  .weui-search-bar__input {
+    height: 28px;
+    line-height: 28px;
+    font-size: 14px;
+  }
+  .weui-search-bar__cancel-btn {
+    margin-left: 10px;
+    line-height: 28px;
+    color: rgb(120, 197, 248);
+    white-space: nowrap;
+  }
+  .vdePlayer{
+      background-color: white;
+      height: 500rpx;
+      margin: 25rpx 25rpx;
+      border-radius: 20rpx;
+  }
+  .playertitle{
+      height: 100rpx;
+      display: flex;
+      flex-direction: row;
+  }
+  .playerbody{
+      display: flex;
+      flex-direction: row;
+  }
+  .player_body{
+      margin-top: 25rpx;
+      height: 400rpx;
+      width: 33.34%;
+  }
+  .playerimg{
+      margin-left: 6rpx;
+      height: 180rpx;
+      width: 95%;
+      background-color: rebeccapurple;
+      margin-bottom: 25rpx;
+  }
+  .playername{
+      color: rgb(88, 87, 87);
+      float: left;
+      margin-bottom: 25rpx;
+      font-size: 13px;
+  }
+  

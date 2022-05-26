@@ -1,0 +1,38 @@
+/* pages/essay/essay.wxss */
+.container{
+  padding-top: 0;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  height: auto;
+  background-color: white;
+}
+.essay_title{
+  height: 150rpx;
+  width: 100%;
+  font-size: 25px;
+  color: rgb(73, 73, 73);
+}
+.essayInfo{
+  display: flex;
+  flex-direction: row;
+  height: 80rpx;
+  width: 100%;
+  color: rgb(138, 135, 135);
+}
+.img{
+  height: 30rpx;
+  width: 100%;
+}
+.essaytime{
+  margin-left: 100rpx;
+}
+.essay{
+  height:auto ;
+  margin-top: 600rpx;
+  font-size: 18px;
+  width: 100%;
+  float: left;
+  color: rgb(129, 122, 122);
+}
